@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Happy Birthday ❤️</title>
+    <title>❤️ Happy Birthday Thu Hoai❤️</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Pacifico&display=swap" rel="stylesheet">
     <style>
         /* ================= BẢNG MÀU & BIẾN TOÀN CỤC ================= */
@@ -413,9 +413,9 @@
     <!-- DATA CẤU HÌNH (Dễ dàng thay đổi) -->
     <script>
         const CONFIG = {
-            crushName: "Cô Gái Nhỏ", // Thay tên crush của bạn vào đây
-            birthdayDate: "2026-06-01", 
-            customMessage: "Cảm ơn cậu vì đã mang đến rất nhiều năng lượng tích cực và những khoảnh khắc đáng nhớ.\nMong tuổi mới sẽ đem đến cho cậu thật nhiều niềm vui, sức khỏe và những điều tuyệt vời nhất.\nDù tương lai thế nào, mình vẫn hy vọng sẽ được nhìn thấy nụ cười của cậu thật nhiều lần nữa.\nChúc cậu có một sinh nhật thật hạnh phúc.\n\nHappy Birthday ❤️",
+            crushName: "Thu Hoài", 
+            birthdayDate: "2026-06-02", 
+            customMessage: "Cảm ơn sốp vì đã mang đến rất nhiều năng lượng tích cực và những khoảnh khắc đáng nhớ.\nMong tuổi mới sẽ đem đến cho em thật nhiều niềm vui, sức khỏe và những điều tuyệt vời nhất.\nChúc sốp có một sinh nhật thật hạnh phúc, trêu cháu ít thui khum nóa khóc nhè nhớ.\n\nHappy Birthday ❤️",
             jerseyNumber: 26,
             youtubeVideoId: "h53q6iIORhw" // Trích xuất ID từ link YouTube của bạn
         };
@@ -429,18 +429,13 @@
         <div class="intro-cake">🎂</div>
         <div class="intro-text" id="t-1">Happy Birthday</div>
         <div class="crush-name" id="t-2"></div>
-        <div class="secret-message" id="t-3">Có một người muốn gửi đến cậu một điều đặc biệt...</div>
+        <div class="secret-message" id="t-3">Có một người muốn gửi đến sốp một điều đặc biệt...</div>
         <button class="btn-open" id="btn-enter" onclick="startExperience()">✨ Mở món quà bí mật ✨</button>
     </div>
 
-    <!-- TRÌNH PHÁT NHẠC -->
+    <!-- TRÌNH PHÁT NHẠC RÚT GỌN (CHỈ CÒN NÚT PLAY/PAUSE YOUTUBE) -->
     <div class="music-player" id="player-container" style="display:none;">
         <button class="music-btn" id="play-pause" onclick="toggleMusic()">🎵</button>
-        <input type="file" id="music-upload" accept="audio/*" style="display:none;" onchange="loadCustomMusic(event)">
-        <button class="music-btn" style="background:#888; font-size:1rem;" onclick="document.getElementById('music-upload').click()">📁</button>
-        <audio id="bgm" loop>
-            <source src="" id="audio-source" type="audio/mpeg">
-        </audio>
     </div>
 
     <!-- YOUTUBE PLAYER (ẨN BẰNG CSS ĐỂ TRÌNH DUYỆT KHÔNG ĐÓNG BĂNG) -->
@@ -474,12 +469,12 @@
                     </div>
                 </div>
             </div>
-            <h2>✨ Một Chút Điều Muốn Nói ✨</h2>
+            <h2>✨ Một Vài Điều Muốn Nói Với Sốp ✨</h2>
             <div class="story-container">
-                <div class="story-card">Ngày hôm nay là một ngày rất đặc biệt.</div>
+                <div class="story-card">Ngày hôm nay là một ngày rất đặc biệt của sốp.</div>
                 <div class="story-card">Vì đó là ngày một cô gái tuyệt vời xuất hiện trên thế giới.</div>
-                <div class="story-card">Hy vọng cậu sẽ luôn cười thật nhiều.</div>
-                <div class="story-card">Và luôn gặp thật nhiều điều may mắn.</div>
+                <div class="story-card">Hy vọng sốp sẽ luôn luôn xinh đẹp, vui vẻ.</div>
+                <div class="story-card">Gặp thật nhiều điều may mắn và niềm vui trong cuộc sống nhớ sốp.</div>
             </div>
         </section>
 
@@ -487,16 +482,16 @@
         <section class="fade-section">
             <h2>📸 Những Khoảnh Khắc Đáng Yêu</h2>
             <div class="gallery-controls">
-                <label for="file-upload" class="upload-btn">➕ Thêm ảnh của cậu vào đây</label>
+                <label for="file-upload" class="upload-btn">➕ Thêm ảnh của sốp vào đây nhớ hehe</label>
                 <input type="file" id="file-upload" accept="image/*" multiple onchange="handleImageUpload(event)">
             </div>
             <div class="gallery-grid" id="gallery">
-                <!-- Ảnh mẫu -->
+                <!-- ĐÃ SỬA: Ảnh mẫu bánh kem và chữ Happy Birthday -->
                 <div class="polaroid" style="--rot: -5">
-                    <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=400&auto=format&fit=crop" alt="Cute">
+                    <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?q=80&w=400&auto=format&fit=crop" alt="Happy Birthday Sign">
                 </div>
                 <div class="polaroid" style="--rot: 3">
-                    <img src="https://images.unsplash.com/photo-1518002171953-a080ee817e1f?q=80&w=400&auto=format&fit=crop" alt="Cute">
+                    <img src="https://images.unsplash.com/photo-1562440499-64c9a111f713?q=80&w=400&auto=format&fit=crop" alt="Birthday Cake">
                 </div>
                 <!-- Chibi Anim 3: Ngồi xen kẽ trong ảnh -->
                 <div class="chibi-wrapper" style="margin-top: 50px;" onclick="chibiJump(this)">
@@ -520,7 +515,7 @@
         <!-- Section 3: Thư chúc sinh nhật -->
         <section class="fade-section">
             <h2>💌 Bức Thư Bí Mật</h2>
-            <p style="text-align: center; margin-bottom: 20px; color: #888;">(Click vào phong thư để mở nhé)</p>
+            <p style="text-align: center; margin-bottom: 20px; color: #888;">(Click vào đây để mở thư nhé sốp)</p>
             <div class="letter-container">
                 <div class="envelope" id="envelope" onclick="openLetter()">
                     <div class="paper">
@@ -547,13 +542,13 @@
 
         <!-- Section 4: Mini Game -->
         <section class="fade-section">
-            <h2>💖 Bắt Lấy Trái Tim 💖</h2>
-            <p style="text-align: center; margin-bottom: 10px;">Hãy gom đủ <span id="target-score">26</span> trái tim nhé!</p>
+            <h2>💖 Bắt Lấy Trái Bóng ⚽</h2>
+            <p style="text-align: center; margin-bottom: 10px;">Hãy gom đủ <span id="target-score">26</span> trái bóng nhé!</p>
             <div id="game-area">
                 <div class="score-board">Điểm: <span id="score">0</span></div>
                 <div id="game-msg">
                     <h3>Hoan hô! 🎉</h3>
-                    <p>Cậu đã thu thập đủ trái tim từ cô gái số 26!</p>
+                    <p>Cậu đã ghi đủ 26 bàn thắng!</p>
                     <button class="upload-btn" onclick="document.getElementById('game-msg').style.display='none'" style="margin-top:10px;">Chơi tiếp</button>
                 </div>
             </div>
@@ -561,13 +556,13 @@
 
         <!-- Section 5: Dành riêng cho số 26 -->
         <section class="fade-section special-section" id="special-sec">
-            <h2>⚽ Dành Riêng Cho Cô Gái Số <span id="title-num">26</span> ⚽</h2>
+            <h2>⚽ Dành Riêng Cho Thu Hoài Fan MC Số <span id="title-num">26</span> ⚽</h2>
             <div class="rolling-ball roll-anim">⚽</div>
             
             <div class="quote">"Luôn mạnh mẽ."</div>
             <div class="quote">"Luôn tự tin."</div>
             <div class="quote">"Luôn tỏa sáng."</div>
-            <div class="quote">"Và mãi đáng yêu như bây giờ."</div>
+            <div class="quote">"Và mãi đáng yêu như tuổi đôi mươi sốp he."</div>
 
             <div style="display: flex; justify-content: center; margin-top: 40px;">
                 <!-- Chibi Anim 2: Đá bóng -->
@@ -605,7 +600,7 @@
                 </div>
             </div>
             <div class="footer-message">HAPPY BIRTHDAY ❤️</div>
-            <p style="margin-top: 10px; color: #888;">Cảm ơn vì đã xuất hiện trong cuộc sống này.</p>
+            <p style="margin-top: 10px; color: #888;">Chúc Thu Hoài sinh nhật tuổi 20 nhiều niềm vui và hạnh phúc❤️.</p>
         </footer>
     </div>
 
@@ -619,12 +614,11 @@
             let el = document.getElementById(`cb-num-${i}`);
             if(el) el.innerText = CONFIG.jerseyNumber;
         }
-        
+
         // Khởi tạo API điều khiển YouTube Player
         let ytPlayer;
         let isYoutubeReady = false;
-        let waitingForYoutube = false; // Cờ chờ nếu click mở quà trước khi API load xong
-        let currentAudioType = 'youtube'; // Trạng thái: đang phát youtube hay mp3 upload
+        let waitingForYoutube = false; 
 
         function onYouTubeIframeAPIReady() {
             ytPlayer = new YT.Player('ytplayer', {
@@ -634,14 +628,14 @@
                 playerVars: {
                     'autoplay': 0,
                     'controls': 0,
-                    'playsinline': 1, // Cực kỳ quan trọng để chạy trên Mobile không bị nhảy toàn màn hình
+                    'playsinline': 1,
                     'loop': 1,
                     'playlist': CONFIG.youtubeVideoId
                 },
                 events: {
                     'onReady': function(event) { 
                         isYoutubeReady = true; 
-                        // Nếu user đã click Mở quà nhưng API lúc đó chưa load xong
+                        // Chạy nếu user đã click mở quà trước khi API load xong
                         if (waitingForYoutube) {
                             ytPlayer.playVideo();
                             isMusicPlaying = true;
@@ -650,7 +644,7 @@
                         }
                     },
                     'onStateChange': function(event) {
-                        // Đồng bộ icon nút Play/Pause với trạng thái thật của YouTube
+                        // Đồng bộ icon nút Play/Pause
                         if(event.data === YT.PlayerState.PLAYING) {
                             isMusicPlaying = true;
                             document.getElementById('play-pause').innerText = '⏸️';
@@ -700,22 +694,13 @@
                 document.getElementById('main-content').style.display = 'block';
                 document.getElementById('player-container').style.display = 'flex';
                 
-                // Play music (Ưu tiên module YouTube)
-                if (currentAudioType === 'youtube') {
-                    if (isYoutubeReady) {
-                        ytPlayer.playVideo();
-                        isMusicPlaying = true;
-                        document.getElementById('play-pause').innerText = '⏸️';
-                    } else {
-                        // Kích hoạt cờ chờ, API Ready sẽ tự động bật
-                        waitingForYoutube = true;
-                    }
+                // Gọi nhạc nền YouTube
+                if (isYoutubeReady) {
+                    ytPlayer.playVideo();
+                    isMusicPlaying = true;
+                    document.getElementById('play-pause').innerText = '⏸️';
                 } else {
-                    let bgm = document.getElementById('bgm');
-                    bgm.play().then(() => {
-                        isMusicPlaying = true;
-                        document.getElementById('play-pause').innerText = '⏸️';
-                    }).catch(e => console.log("Trình duyệt chặn autoplay audio"));
+                    waitingForYoutube = true; // Chờ tín hiệu Ready
                 }
                 
                 initScrollAnimations();
@@ -723,45 +708,27 @@
             }, 1000);
         }
 
-        // 5. ĐIỀU KHIỂN NHẠC
+        // 5. ĐIỀU KHIỂN NHẠC (CHỈ YOUTUBE)
         function toggleMusic() {
-            if (currentAudioType === 'youtube' && isYoutubeReady) {
-                if(isMusicPlaying) { ytPlayer.pauseVideo(); document.getElementById('play-pause').innerText = '🎵'; }
-                else { ytPlayer.playVideo(); document.getElementById('play-pause').innerText = '⏸️'; }
-            } else {
-                let bgm = document.getElementById('bgm');
-                if(isMusicPlaying) { bgm.pause(); document.getElementById('play-pause').innerText = '🎵'; }
-                else { bgm.play(); document.getElementById('play-pause').innerText = '⏸️'; }
-            }
-            isMusicPlaying = !isMusicPlaying;
-        }
-
-        function loadCustomMusic(event) {
-            const file = event.target.files[0];
-            if (file) {
-                // Tắt nhạc YouTube ngay nếu user tự upload file mp3
-                if (currentAudioType === 'youtube' && isYoutubeReady) {
-                    ytPlayer.pauseVideo();
+            if (isYoutubeReady) {
+                if(isMusicPlaying) { 
+                    ytPlayer.pauseVideo(); 
+                    document.getElementById('play-pause').innerText = '🎵'; 
+                } else { 
+                    ytPlayer.playVideo(); 
+                    document.getElementById('play-pause').innerText = '⏸️'; 
                 }
-                currentAudioType = 'html5'; // Đổi cờ (flag) để trình chơi nhạc chuyển sang HTML5
-
-                const url = URL.createObjectURL(file);
-                let bgm = document.getElementById('bgm');
-                bgm.src = url;
-                bgm.play();
-                isMusicPlaying = true;
-                document.getElementById('play-pause').innerText = '⏸️';
+                isMusicPlaying = !isMusicPlaying;
             }
         }
 
-        // 6. SCROLL ANIMATION (Sử dụng Intersection Observer - Chuẩn Frontend hiện đại)
+        // 6. SCROLL ANIMATION 
         function initScrollAnimations() {
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('visible');
                         
-                        // Nếu là story section
                         if(entry.target.querySelector('.story-card')) {
                             let cards = entry.target.querySelectorAll('.story-card');
                             cards.forEach((card, index) => {
@@ -769,7 +736,6 @@
                             });
                         }
 
-                        // Nếu là special section (Quote fadeIn)
                         if(entry.target.id === 'special-sec') {
                             let quotes = entry.target.querySelectorAll('.quote');
                             quotes.forEach((q, i) => {
@@ -808,7 +774,7 @@
 
             setTimeout(() => {
                 typeWriterEffect(CONFIG.customMessage, 'letter-text', 50);
-            }, 800); // Chờ animation mở thư xong
+            }, 800); 
         }
         function typeWriterEffect(text, elementId, speed) {
             let i = 0;
@@ -845,12 +811,11 @@
                     if(!gameActive) return;
                     score++;
                     document.getElementById('score').innerText = score;
-                    this.innerText = '✨'; // Hiệu ứng nổ nhẹ
+                    this.innerText = '✨';
                     setTimeout(() => this.remove(), 200);
 
                     if(score === CONFIG.jerseyNumber) {
                         document.getElementById('game-msg').style.display = 'block';
-                        // Thưởng thêm pháo hoa nhỏ (DOM)
                         for(let j=0; j<20; j++) {
                             let fw = document.createElement('div');
                             fw.innerText = '🎉';
@@ -872,10 +837,9 @@
         function chibiJump(element) {
             let girl = element.querySelector('.chibi-girl');
             girl.classList.remove('chibi-jump');
-            void girl.offsetWidth; // trigger reflow
+            void girl.offsetWidth; 
             girl.classList.add('chibi-jump');
             
-            // Bắn tim bay ra
             let heart = document.createElement('div');
             heart.innerText = '❤️';
             heart.style.position = 'absolute';
