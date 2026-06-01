@@ -39,7 +39,7 @@
             100% { background-position: 0% 50%; }
         }
 
-        /* ================= HỆ THỐNG BACKGROUND (PARTICLES) ================= */
+        /* ================= HỆ THỐNG BACKGROUND ================= */
         #particles {
             position: fixed;
             top: 0; left: 0; width: 100vw; height: 100vh;
@@ -58,7 +58,7 @@
             100% { transform: translateY(-10vh) rotate(360deg) scale(1.2); opacity: 0; }
         }
 
-        /* ================= MÀN HÌNH MỞ ĐẦU (INTRO TIER) ================= */
+        /* ================= MÀN HÌNH MỞ ĐẦU ================= */
         #intro-screen {
             position: fixed;
             top: 0; left: 0; width: 100vw; height: 100vh;
@@ -117,7 +117,7 @@
             box-shadow: 0 8px 20px rgba(255, 107, 158, 0.4);
         }
 
-        /* ================= NHÂN VẬT NỮ CẦU THỦ SỐ 26 (CSS ART) ================= */
+        /* ================= NHÂN VẬT NỮ CẦU THỦ SỐ 26 ================= */
         .chibi-wrapper {
             position: relative;
             width: 120px; height: 160px;
@@ -129,79 +129,27 @@
             position: relative;
             width: 100%; height: 100%;
         }
-        /* Tóc */
-        .chibi-hair-back {
-            position: absolute; top: 10px; left: 20px; width: 80px; height: 120px;
-            background: #4a3b32; border-radius: 40px;
-        }
-        /* Đầu */
-        .chibi-head {
-            position: absolute; top: 15px; left: 30px; width: 60px; height: 55px;
-            background: #ffe0d2; border-radius: 50%;
-            z-index: 2;
-        }
-        /* Tóc mái */
-        .chibi-bangs {
-            position: absolute; top: 10px; left: 25px; width: 70px; height: 30px;
-            background: #4a3b32; border-radius: 30px 30px 0 0; z-index: 3;
-        }
-        /* Mắt & Má hồng */
-        .chibi-eye {
-            position: absolute; top: 30px; width: 8px; height: 8px;
-            background: #222; border-radius: 50%; z-index: 3;
-        }
+        .chibi-hair-back { position: absolute; top: 10px; left: 20px; width: 80px; height: 120px; background: #4a3b32; border-radius: 40px; }
+        .chibi-head { position: absolute; top: 15px; left: 30px; width: 60px; height: 55px; background: #ffe0d2; border-radius: 50%; z-index: 2; }
+        .chibi-bangs { position: absolute; top: 10px; left: 25px; width: 70px; height: 30px; background: #4a3b32; border-radius: 30px 30px 0 0; z-index: 3; }
+        .chibi-eye { position: absolute; top: 30px; width: 8px; height: 8px; background: #222; border-radius: 50%; z-index: 3; }
         .chibi-eye.left { left: 15px; }
         .chibi-eye.right { right: 15px; }
-        .chibi-blush {
-            position: absolute; top: 38px; width: 12px; height: 6px;
-            background: rgba(255, 107, 158, 0.5); border-radius: 50%; z-index: 3;
-        }
+        .chibi-blush { position: absolute; top: 38px; width: 12px; height: 6px; background: rgba(255, 107, 158, 0.5); border-radius: 50%; z-index: 3; }
         .chibi-blush.left { left: 8px; }
         .chibi-blush.right { right: 8px; }
-        /* Nụ cười */
-        .chibi-smile {
-            position: absolute; top: 40px; left: 25px; width: 10px; height: 5px;
-            border-bottom: 2px solid #222; border-radius: 0 0 10px 10px; z-index: 3;
-        }
-        /* Thân (Áo số 26) */
-        .chibi-body {
-            position: absolute; top: 65px; left: 40px; width: 40px; height: 45px;
-            background: #ff75a0; border-radius: 10px 10px 5px 5px; z-index: 1;
-            display: flex; justify-content: center; align-items: center;
-            color: white; font-weight: 800; font-size: 18px;
-        }
-        /* Quần short */
-        .chibi-shorts {
-            position: absolute; top: 105px; left: 40px; width: 40px; height: 15px;
-            background: #2c3e50; border-radius: 0 0 5px 5px; z-index: 1;
-        }
-        /* Chân & Giày */
-        .chibi-leg {
-            position: absolute; top: 115px; width: 12px; height: 25px;
-            background: #ffe0d2; z-index: 0;
-        }
+        .chibi-smile { position: absolute; top: 40px; left: 25px; width: 10px; height: 5px; border-bottom: 2px solid #222; border-radius: 0 0 10px 10px; z-index: 3; }
+        .chibi-body { position: absolute; top: 65px; left: 40px; width: 40px; height: 45px; background: #ff75a0; border-radius: 10px 10px 5px 5px; z-index: 1; display: flex; justify-content: center; align-items: center; color: white; font-weight: 800; font-size: 18px; }
+        .chibi-shorts { position: absolute; top: 105px; left: 40px; width: 40px; height: 15px; background: #2c3e50; border-radius: 0 0 5px 5px; z-index: 1; }
+        .chibi-leg { position: absolute; top: 115px; width: 12px; height: 25px; background: #ffe0d2; z-index: 0; }
         .chibi-leg.left { left: 45px; }
         .chibi-leg.right { left: 63px; }
-        .chibi-shoe {
-            position: absolute; bottom: -5px; left: -2px; width: 16px; height: 10px;
-            background: #eee; border-radius: 5px; border: 1px solid #ccc;
-        }
-        /* Tay */
-        .chibi-arm {
-            position: absolute; top: 70px; width: 12px; height: 30px;
-            background: #ffe0d2; border-radius: 6px; z-index: 2;
-        }
+        .chibi-shoe { position: absolute; bottom: -5px; left: -2px; width: 16px; height: 10px; background: #eee; border-radius: 5px; border: 1px solid #ccc; }
+        .chibi-arm { position: absolute; top: 70px; width: 12px; height: 30px; background: #ffe0d2; border-radius: 6px; z-index: 2; }
         .chibi-arm.left { left: 30px; transform: rotate(20deg); }
         .chibi-arm.right { left: 78px; transform: rotate(-20deg); }
-        /* Quả bóng */
-        .chibi-ball {
-            position: absolute; bottom: 10px; right: 10px; width: 25px; height: 25px;
-            background: white; border-radius: 50%; z-index: 4;
-            border: 2px solid #333; display: flex; justify-content: center; align-items: center;
-            font-size: 10px;
-        }
+        .chibi-ball { position: absolute; bottom: 10px; right: 10px; width: 25px; height: 25px; background: white; border-radius: 50%; z-index: 4; border: 2px solid #333; display: flex; justify-content: center; align-items: center; font-size: 10px; }
         
-        /* Animation cho Chibi */
         .chibi-jump { animation: jumpJump 0.5s ease; }
         @keyframes jumpJump {
             0%, 100% { transform: translateY(0); }
@@ -211,191 +159,67 @@
         @keyframes wave { 0% { transform: rotate(-20deg); } 100% { transform: rotate(-120deg); } }
 
         /* ================= LAYOUT CHÍNH ================= */
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            position: relative;
-            z-index: 1;
-        }
-        section {
-            background: rgba(255, 255, 255, 0.7);
-            border-radius: 30px;
-            padding: 40px;
-            margin-bottom: 50px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-            backdrop-filter: blur(10px);
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.8s ease;
-        }
-        section.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        h2 {
-            font-family: 'Pacifico', cursive;
-            color: var(--text-highlight);
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; position: relative; z-index: 1; }
+        section { background: rgba(255, 255, 255, 0.7); border-radius: 30px; padding: 40px; margin-bottom: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); backdrop-filter: blur(10px); opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+        section.visible { opacity: 1; transform: translateY(0); }
+        h2 { font-family: 'Pacifico', cursive; color: var(--text-highlight); text-align: center; font-size: 2.5rem; margin-bottom: 30px; }
 
         /* ================= STORY SECTION ================= */
-        .story-card {
-            background: white;
-            padding: 20px;
-            border-radius: 15px;
-            margin-bottom: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            font-size: 1.2rem;
-            text-align: center;
-            opacity: 0;
-            transform: translateX(-20px);
-            transition: all 0.5s ease;
-        }
-        .story-card.visible {
-            opacity: 1;
-            transform: translateX(0);
-        }
+        .story-card { background: white; padding: 20px; border-radius: 15px; margin-bottom: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); font-size: 1.2rem; text-align: center; opacity: 0; transform: translateX(-20px); transition: all 0.5s ease; }
+        .story-card.visible { opacity: 1; transform: translateX(0); }
 
-        /* ================= KHU VỰC ẢNH (GALLERY) ================= */
-        .gallery-controls {
-            text-align: center; margin-bottom: 20px;
-        }
-        .upload-btn {
-            background: var(--text-highlight); color: white;
-            padding: 10px 20px; border-radius: 20px; cursor: pointer;
-            font-weight: bold; display: inline-block; transition: 0.3s;
-        }
+        /* ================= GALLERY ================= */
+        .gallery-controls { text-align: center; margin-bottom: 20px; }
+        .upload-btn { background: var(--text-highlight); color: white; padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: bold; display: inline-block; transition: 0.3s; }
         .upload-btn:hover { background: #ff4d88; transform: scale(1.05); }
         #file-upload { display: none; }
         
-        .gallery-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-        }
-        .polaroid {
-            background: white;
-            padding: 10px 10px 25px 10px;
-            border-radius: 5px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-            width: 200px;
-            transform: rotate(calc(var(--rot) * 1deg));
-            transition: all 0.3s ease;
-            cursor: pointer;
-            position: relative;
-        }
-        .polaroid img {
-            width: 100%; height: 180px; object-fit: cover; border-radius: 3px;
-        }
-        .polaroid:hover {
-            transform: scale(1.1) rotate(0deg) !important;
-            z-index: 10;
-            box-shadow: 0 10px 25px rgba(255, 107, 158, 0.4);
-        }
-        .polaroid::after {
-            content: '❤️'; position: absolute; bottom: 2px; right: 10px; opacity: 0; transition: 0.3s;
-        }
+        .gallery-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .polaroid { background: white; padding: 10px 10px 25px 10px; border-radius: 5px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); width: 200px; transform: rotate(calc(var(--rot) * 1deg)); transition: all 0.3s ease; cursor: pointer; position: relative; }
+        .polaroid img { width: 100%; height: 180px; object-fit: cover; border-radius: 3px; }
+        .polaroid:hover { transform: scale(1.1) rotate(0deg) !important; z-index: 10; box-shadow: 0 10px 25px rgba(255, 107, 158, 0.4); }
+        .polaroid::after { content: '❤️'; position: absolute; bottom: 2px; right: 10px; opacity: 0; transition: 0.3s; }
         .polaroid:hover::after { opacity: 1; }
 
-        /* ================= THƯ CHÚC SINH NHẬT ================= */
-        .letter-container {
-            display: flex; justify-content: center; align-items: center; min-height: 300px;
-            perspective: 1000px;
-        }
-        .envelope {
-            width: 300px; height: 200px;
-            background: #ffb6c1;
-            position: relative;
-            cursor: pointer;
-            border-radius: 5px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            transition: transform 0.5s;
-        }
-        .envelope::before { /* Flap trên */
-            content: ''; position: absolute; top: 0; left: 0;
-            border-left: 150px solid transparent; border-right: 150px solid transparent;
-            border-top: 100px solid #ff9db0;
-            transform-origin: top; transition: transform 0.8s ease; z-index: 3;
-        }
+        /* ================= THƯ ================= */
+        .letter-container { display: flex; justify-content: center; align-items: center; min-height: 300px; perspective: 1000px; }
+        .envelope { width: 300px; height: 200px; background: #ffb6c1; position: relative; cursor: pointer; border-radius: 5px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.5s; }
+        .envelope::before { content: ''; position: absolute; top: 0; left: 0; border-left: 150px solid transparent; border-right: 150px solid transparent; border-top: 100px solid #ff9db0; transform-origin: top; transition: transform 0.8s ease; z-index: 3; }
         .envelope.open::before { transform: rotateX(180deg); z-index: 1; }
-        .paper {
-            position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px;
-            background: #fff; padding: 20px; border-radius: 5px;
-            z-index: 2; transform: translateY(0); transition: all 0.8s ease;
-            box-shadow: 0 0 5px rgba(0,0,0,0.1);
-            overflow: hidden;
-            display: none;
-        }
-        .envelope.open .paper {
-            display: block;
-            transform: translateY(-50px) scale(1.1); z-index: 4; height: 400px;
-        }
-        #letter-text {
-            font-family: 'Nunito', sans-serif; font-size: 1.1rem; line-height: 1.6;
-            color: var(--text-main); white-space: pre-wrap;
-        }
+        .paper { position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; background: #fff; padding: 20px; border-radius: 5px; z-index: 2; transform: translateY(0); transition: all 0.8s ease; box-shadow: 0 0 5px rgba(0,0,0,0.1); overflow: hidden; display: none; }
+        .envelope.open .paper { display: block; transform: translateY(-50px) scale(1.1); z-index: 4; height: 400px; }
+        #letter-text { font-family: 'Nunito', sans-serif; font-size: 1.1rem; line-height: 1.6; color: var(--text-main); white-space: pre-wrap; }
 
         /* ================= MINI GAME ================= */
-        #game-area {
-            position: relative; width: 100%; height: 300px;
-            background: rgba(255,255,255,0.5); border-radius: 20px; overflow: hidden;
-            border: 2px dashed var(--text-highlight);
-            cursor: crosshair;
-        }
-        .game-heart {
-            position: absolute; font-size: 24px; cursor: pointer; user-select: none;
-            animation: fall linear forwards;
-        }
+        #game-area { position: relative; width: 100%; height: 300px; background: rgba(255,255,255,0.5); border-radius: 20px; overflow: hidden; border: 2px dashed var(--text-highlight); cursor: crosshair; }
+        .game-heart { position: absolute; font-size: 24px; cursor: pointer; user-select: none; animation: fall linear forwards; }
         @keyframes fall { to { transform: translateY(300px); } }
-        .score-board {
-            position: absolute; top: 10px; right: 20px; font-weight: bold; font-size: 1.2rem;
-        }
-        #game-msg {
-            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            text-align: center; display: none; z-index: 10;
-        }
+        .score-board { position: absolute; top: 10px; right: 20px; font-weight: bold; font-size: 1.2rem; }
+        #game-msg { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); text-align: center; display: none; z-index: 10; }
 
-        /* ================= KHU VỰC ĐẶC BIỆT #26 ================= */
-        .special-section {
-            text-align: center; position: relative; overflow: hidden; padding-bottom: 80px;
-        }
-        .rolling-ball {
-            font-size: 40px; position: absolute; bottom: 20px; left: -50px;
-        }
-        .roll-anim {
-            animation: rollAcross 4s linear infinite;
-        }
-        @keyframes rollAcross {
-            0% { left: -50px; transform: rotate(0deg); }
-            100% { left: 100%; transform: rotate(720deg); }
-        }
-        .quote {
-            font-size: 1.5rem; font-weight: bold; color: var(--text-highlight);
-            opacity: 0; transition: opacity 0.5s; margin: 10px 0;
-        }
+        /* ================= KHU VỰC ĐẶC BIỆT ================= */
+        .special-section { text-align: center; position: relative; overflow: hidden; padding-bottom: 80px; }
+        .rolling-ball { font-size: 40px; position: absolute; bottom: 20px; left: -50px; }
+        .roll-anim { animation: rollAcross 4s linear infinite; }
+        @keyframes rollAcross { 0% { left: -50px; transform: rotate(0deg); } 100% { left: 100%; transform: rotate(720deg); } }
+        .quote { font-size: 1.5rem; font-weight: bold; color: var(--text-highlight); opacity: 0; transition: opacity 0.5s; margin: 10px 0; }
 
         /* ================= NHẠC NỀN & FOOTER ================= */
-        .music-player {
-            position: fixed; bottom: 20px; right: 20px; z-index: 100;
-            background: white; padding: 10px; border-radius: 50px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 10px;
-        }
-        .music-btn {
-            background: var(--text-highlight); color: white; border: none;
-            width: 40px; height: 40px; border-radius: 50%; cursor: pointer;
-            font-size: 1.2rem; display: flex; justify-content: center; align-items: center;
-        }
-        footer {
-            text-align: center; padding: 50px 20px; position: relative;
-        }
-        .footer-message {
-            font-family: 'Pacifico', cursive; font-size: 2rem; color: var(--text-highlight);
-            margin-top: 20px;
+        .music-player { position: fixed; bottom: 20px; right: 20px; z-index: 100; background: white; padding: 10px; border-radius: 50px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 10px; }
+        .music-btn { background: var(--text-highlight); color: white; border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 1.2rem; display: flex; justify-content: center; align-items: center; }
+        footer { text-align: center; padding: 50px 20px; position: relative; }
+        .footer-message { font-family: 'Pacifico', cursive; font-size: 2rem; color: var(--text-highlight); margin-top: 20px; }
+
+        /* ================= FIX LỖI YOUTUBE iOS POPUP ================= */
+        .youtube-hidden-wrapper {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            height: 300px;
+            opacity: 0.001; /* Đánh lừa iOS: Vẫn hiển thị nhưng độ mờ gần như vô hình */
+            pointer-events: none;
+            z-index: -9999;
         }
 
         /* Responsive */
@@ -410,21 +234,18 @@
 </head>
 <body>
 
-    <!-- DATA CẤU HÌNH (Dễ dàng thay đổi) -->
     <script>
         const CONFIG = {
             crushName: "Thu Hoài", 
             birthdayDate: "2026-06-02", 
             customMessage: "Cảm ơn sốp vì đã mang đến rất nhiều năng lượng tích cực và những khoảnh khắc đáng nhớ.\nMong tuổi mới sẽ đem đến cho em thật nhiều niềm vui, sức khỏe và những điều tuyệt vời nhất.\nChúc sốp có một sinh nhật thật hạnh phúc, trêu cháu ít thui khum nóa khóc nhè nhớ.\n\nHappy Birthday ❤️",
             jerseyNumber: 26,
-            youtubeVideoId: "h53q6iIORhw" // Trích xuất ID từ link YouTube của bạn
+            youtubeVideoId: "h53q6iIORhw" 
         };
     </script>
 
-    <!-- HỆ THỐNG BACKGROUND -->
     <div id="particles"></div>
 
-    <!-- MÀN HÌNH INTRO -->
     <div id="intro-screen">
         <div class="intro-cake">🎂</div>
         <div class="intro-text" id="t-1">Happy Birthday</div>
@@ -433,24 +254,19 @@
         <button class="btn-open" id="btn-enter" onclick="startExperience()">✨ Mở món quà bí mật ✨</button>
     </div>
 
-    <!-- TRÌNH PHÁT NHẠC RÚT GỌN (CHỈ CÒN NÚT PLAY/PAUSE YOUTUBE) -->
     <div class="music-player" id="player-container" style="display:none;">
         <button class="music-btn" id="play-pause" onclick="toggleMusic()">🎵</button>
     </div>
 
-    <!-- YOUTUBE PLAYER (ẨN BẰNG CSS ĐỂ TRÌNH DUYỆT KHÔNG ĐÓNG BĂNG) -->
-    <div style="position: absolute; width: 1px; height: 1px; top: -9999px; left: -9999px;">
+    <div class="youtube-hidden-wrapper">
         <div id="ytplayer"></div>
     </div>
     <script src="https://www.youtube.com/iframe_api"></script>
 
-    <!-- NỘI DUNG CHÍNH -->
     <div class="container" id="main-content" style="display:none;">
         
-        <!-- Section 1: Intro Story -->
         <section class="fade-section">
             <div style="display: flex; justify-content: center; margin-bottom: 20px;">
-                <!-- CHIBI ANIMATION 1: Vẫy tay -->
                 <div class="chibi-wrapper chibi-wave" onclick="chibiJump(this)">
                     <div class="chibi-girl">
                         <div class="chibi-hair-back"></div>
@@ -478,7 +294,6 @@
             </div>
         </section>
 
-        <!-- Section 2: Khung ảnh kỷ niệm -->
         <section class="fade-section">
             <h2>📸 Những Khoảnh Khắc Đáng Yêu</h2>
             <div class="gallery-controls">
@@ -486,14 +301,12 @@
                 <input type="file" id="file-upload" accept="image/*" multiple onchange="handleImageUpload(event)">
             </div>
             <div class="gallery-grid" id="gallery">
-                <!-- ĐÃ SỬA: Ảnh mẫu bánh kem và chữ Happy Birthday -->
                 <div class="polaroid" style="--rot: -5">
                     <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?q=80&w=400&auto=format&fit=crop" alt="Happy Birthday Sign">
                 </div>
                 <div class="polaroid" style="--rot: 3">
                     <img src="https://images.unsplash.com/photo-1562440499-64c9a111f713?q=80&w=400&auto=format&fit=crop" alt="Birthday Cake">
                 </div>
-                <!-- Chibi Anim 3: Ngồi xen kẽ trong ảnh -->
                 <div class="chibi-wrapper" style="margin-top: 50px;" onclick="chibiJump(this)">
                     <div class="chibi-girl" style="transform: scale(0.8)">
                          <div class="chibi-hair-back"></div>
@@ -512,7 +325,6 @@
             </div>
         </section>
 
-        <!-- Section 3: Thư chúc sinh nhật -->
         <section class="fade-section">
             <h2>💌 Bức Thư Bí Mật</h2>
             <p style="text-align: center; margin-bottom: 20px; color: #888;">(Click vào đây để mở thư nhé sốp)</p>
@@ -521,7 +333,6 @@
                     <div class="paper">
                         <div id="letter-text"></div>
                     </div>
-                    <!-- Chibi nhỏ cầm tim -->
                     <div class="chibi-wrapper" style="position: absolute; bottom: -20px; right: -40px; transform: scale(0.6);">
                         <div class="chibi-girl">
                             <div class="chibi-hair-back"></div>
@@ -540,7 +351,6 @@
             </div>
         </section>
 
-        <!-- Section 4: Mini Game -->
         <section class="fade-section">
             <h2>💖 Bắt Lấy Trái Bóng ⚽</h2>
             <p style="text-align: center; margin-bottom: 10px;">Hãy gom đủ <span id="target-score">26</span> trái bóng nhé!</p>
@@ -554,7 +364,6 @@
             </div>
         </section>
 
-        <!-- Section 5: Dành riêng cho số 26 -->
         <section class="fade-section special-section" id="special-sec">
             <h2>⚽ Dành Riêng Cho Thu Hoài Fan MC Số <span id="title-num">26</span> ⚽</h2>
             <div class="rolling-ball roll-anim">⚽</div>
@@ -565,7 +374,6 @@
             <div class="quote">"Và mãi đáng yêu như tuổi đôi mươi sốp he."</div>
 
             <div style="display: flex; justify-content: center; margin-top: 40px;">
-                <!-- Chibi Anim 2: Đá bóng -->
                 <div class="chibi-wrapper" onclick="chibiJump(this)">
                     <div class="chibi-girl">
                         <div class="chibi-hair-back"></div>
@@ -584,7 +392,6 @@
             </div>
         </section>
 
-        <!-- Footer -->
         <footer>
             <div class="chibi-wrapper" style="margin: 0 auto;" onclick="chibiJump(this)">
                 <div class="chibi-girl">
@@ -604,9 +411,7 @@
         </footer>
     </div>
 
-    <!-- SCRIPTS -->
     <script>
-        // 1. ÁP DỤNG CONFIG
         document.getElementById('t-2').innerText = `HAPPY BIRTHDAY, ${CONFIG.crushName.toUpperCase()} ❤️`;
         document.getElementById('title-num').innerText = CONFIG.jerseyNumber;
         document.getElementById('target-score').innerText = CONFIG.jerseyNumber;
@@ -615,27 +420,25 @@
             if(el) el.innerText = CONFIG.jerseyNumber;
         }
 
-        // Khởi tạo API điều khiển YouTube Player
         let ytPlayer;
         let isYoutubeReady = false;
         let waitingForYoutube = false; 
 
         function onYouTubeIframeAPIReady() {
             ytPlayer = new YT.Player('ytplayer', {
-                height: '1',
-                width: '1',
+                height: '300', /* Cấp kích thước vật lý lớn để qua mặt iOS */
+                width: '300',
                 videoId: CONFIG.youtubeVideoId,
                 playerVars: {
                     'autoplay': 0,
                     'controls': 0,
-                    'playsinline': 1,
+                    'playsinline': 1, /* Bắt buộc để video không full màn hình */
                     'loop': 1,
                     'playlist': CONFIG.youtubeVideoId
                 },
                 events: {
                     'onReady': function(event) { 
                         isYoutubeReady = true; 
-                        // Chạy nếu user đã click mở quà trước khi API load xong
                         if (waitingForYoutube) {
                             ytPlayer.playVideo();
                             isMusicPlaying = true;
@@ -644,7 +447,6 @@
                         }
                     },
                     'onStateChange': function(event) {
-                        // Đồng bộ icon nút Play/Pause
                         if(event.data === YT.PlayerState.PLAYING) {
                             isMusicPlaying = true;
                             document.getElementById('play-pause').innerText = '⏸️';
@@ -657,7 +459,6 @@
             });
         }
 
-        // 2. HỆ THỐNG PARTICLES BACKGROUND
         function createParticles() {
             const container = document.getElementById('particles');
             const items = ['☁️', '❤️', '✨', '🫧', '⚽'];
@@ -674,7 +475,6 @@
         }
         createParticles();
 
-        // 3. INTRO ANIMATION TỪNG BƯỚC
         window.onload = () => {
             setTimeout(() => document.getElementById('t-1').style.opacity = 1, 500);
             setTimeout(() => {
@@ -685,7 +485,6 @@
             setTimeout(() => document.getElementById('btn-enter').style.opacity = 1, 3500);
         };
 
-        // 4. BẮT ĐẦU TRẢI NGHIỆM
         let isMusicPlaying = false;
         function startExperience() {
             document.getElementById('intro-screen').style.opacity = 0;
@@ -694,13 +493,12 @@
                 document.getElementById('main-content').style.display = 'block';
                 document.getElementById('player-container').style.display = 'flex';
                 
-                // Gọi nhạc nền YouTube
                 if (isYoutubeReady) {
                     ytPlayer.playVideo();
                     isMusicPlaying = true;
                     document.getElementById('play-pause').innerText = '⏸️';
                 } else {
-                    waitingForYoutube = true; // Chờ tín hiệu Ready
+                    waitingForYoutube = true;
                 }
                 
                 initScrollAnimations();
@@ -708,7 +506,6 @@
             }, 1000);
         }
 
-        // 5. ĐIỀU KHIỂN NHẠC (CHỈ YOUTUBE)
         function toggleMusic() {
             if (isYoutubeReady) {
                 if(isMusicPlaying) { 
@@ -722,7 +519,6 @@
             }
         }
 
-        // 6. SCROLL ANIMATION 
         function initScrollAnimations() {
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
@@ -749,7 +545,6 @@
             document.querySelectorAll('.fade-section').forEach(sec => observer.observe(sec));
         }
 
-        // 7. UPLOAD ẢNH (GALLERY)
         function handleImageUpload(event) {
             const files = event.target.files;
             const gallery = document.getElementById('gallery');
@@ -764,7 +559,6 @@
             }
         }
 
-        // 8. BỨC THƯ (TYPEWRITER EFFECT)
         let letterOpened = false;
         function openLetter() {
             if(letterOpened) return;
@@ -791,7 +585,6 @@
             type();
         }
 
-        // 9. MINI GAME LÓGIC
         let score = 0;
         let gameActive = false;
         let gameInterval;
@@ -803,7 +596,7 @@
                 if(!gameActive) return;
                 const heart = document.createElement('div');
                 heart.className = 'game-heart';
-                heart.innerText = '❤️';
+                heart.innerText = '⚽';
                 heart.style.left = Math.random() * 90 + '%';
                 heart.style.animationDuration = (Math.random() * 2 + 2) + 's';
                 
@@ -833,7 +626,6 @@
             }, 800);
         }
 
-        // 10. CHIBI CLICK ANIMATION
         function chibiJump(element) {
             let girl = element.querySelector('.chibi-girl');
             girl.classList.remove('chibi-jump');
@@ -853,7 +645,6 @@
             }, 50);
             setTimeout(() => heart.remove(), 1000);
         }
-
     </script>
 </body>
 </html>
